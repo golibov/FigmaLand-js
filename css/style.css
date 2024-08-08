@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Rubik", sans-serif;
+}
+body {
+    background-color: #181818;
+}
+.container {
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* ================> header section start <================ */
+#header {
+    width: 100%;
+    max-width: 1097px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .nav__logo {
+    width: 206px;
+    height: 78px;
+}
+.nav .nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+}
+.nav .nav__list .nav__list--items {
+    font-family: "Graphik";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.nav .nav__list .nav__list--items a {
+    color: white;
+}
+
+.nav .nav__login {
+    font-family: "Rubik";
+    border: 1px solid #fff;
+    width: 139px;
+    height: 52px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    line-height: 27;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+.nav .nav__login:hover {
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+/* ================> header section end <================ */
+
+/* ==================> intro section start <================ */
+#intro {
+    width: 100%;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+.wrapper .text {
+    font-family: "Rubik";
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    color: #fff;
+    max-width: 709px;
+}
+.wrapper .text-second {
+    font-family: "Rubik";
+    color: #fff;
+    max-width: 582px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 27px;
+}
+.wrapper .btn-wrapper{
+    display: flex;
+    gap: 35px;
+    margin-top: 85px;
+
+}
+.wrapper .btn-wrapper .trybutton{
+    width: 178px;
+    height: 65px;
+    background-color: #4452FE;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+.wrapper .btn-wrapper .trybutton:hover{
+    background-color: #2a3cfc;
+}
+.wrapper .btn-wrapper .learnmore{
+    width: 178px;
+    height: 65px;
+    border: none;
+    border:  1px solid #fff;
+    background-color: #333;
+    color: #fff;
+    font-weight: 700;
+   
+}
+.wrapper .btn-wrapper .learnmore:hover{
+    background-color: #474747;
+    border: 1px solid #474747;
+}
+/* ==================> intro section end <================ */
